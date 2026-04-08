@@ -1,6 +1,9 @@
-package edu.tcu.cs.hogwartsartifactsonline.hogwartsuser;
+package edu.tcu.cs.hogwartsartifactsonline.hogwartuser;
 
-import edu.tcu.cs.hogwartsartifactsonline.system.exception.ObjectNotFoundException;
+import edu.tcu.cs.hogwartsartifactsonline.System.exception.ObjectNotFoundException;
+import edu.tcu.cs.hogwartsartifactsonline.hogwartsuser.HogwartsUser;
+import edu.tcu.cs.hogwartsartifactsonline.hogwartsuser.UserRepository;
+import edu.tcu.cs.hogwartsartifactsonline.hogwartsuser.UserService;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

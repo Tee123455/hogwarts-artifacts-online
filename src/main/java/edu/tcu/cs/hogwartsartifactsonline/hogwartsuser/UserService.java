@@ -1,6 +1,6 @@
 package edu.tcu.cs.hogwartsartifactsonline.hogwartsuser;
 
-import edu.tcu.cs.hogwartsartifactsonline.system.exception.ObjectNotFoundException;
+import edu.tcu.cs.hogwartsartifactsonline.System.exception.ObjectNotFoundException;
 import jakarta.transaction.Transactional;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

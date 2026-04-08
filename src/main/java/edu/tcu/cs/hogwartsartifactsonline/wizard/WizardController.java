@@ -1,7 +1,7 @@
 package edu.tcu.cs.hogwartsartifactsonline.wizard;
 
-import edu.tcu.cs.hogwartsartifactsonline.system.Result;
-import edu.tcu.cs.hogwartsartifactsonline.system.StatusCode;
+import edu.tcu.cs.hogwartsartifactsonline.System.Result;
+import edu.tcu.cs.hogwartsartifactsonline.System.StatusCode;
 import edu.tcu.cs.hogwartsartifactsonline.wizard.converter.WizardDtoToWizardConverter;
 import edu.tcu.cs.hogwartsartifactsonline.wizard.converter.WizardToWizardDtoConverter;
 import edu.tcu.cs.hogwartsartifactsonline.wizard.dto.WizardDto;

@@ -1,4 +1,3 @@
-
 package edu.tcu.cs.hogwartsartifactsonline.security;
 
 import org.springframework.security.core.Authentication;
@@ -14,7 +13,7 @@ import java.util.stream.Collectors;
 @Component
 public class JwtProvider {
 
-    private JwtEncoder jwtEncoder;
+    private final JwtEncoder jwtEncoder;
 
 
     public JwtProvider(JwtEncoder jwtEncoder) {

@@ -2,8 +2,8 @@ package edu.tcu.cs.hogwartsartifactsonline.artifact;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import edu.tcu.cs.hogwartsartifactsonline.artifact.dto.ArtifactDto;
-import edu.tcu.cs.hogwartsartifactsonline.system.StatusCode;
-import edu.tcu.cs.hogwartsartifactsonline.system.exception.ObjectNotFoundException;
+import edu.tcu.cs.hogwartsartifactsonline.System.StatusCode;
+import edu.tcu.cs.hogwartsartifactsonline.System.exception.ObjectNotFoundException;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

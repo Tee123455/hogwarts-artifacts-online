@@ -3,8 +3,8 @@ package edu.tcu.cs.hogwartsartifactsonline.hogwartsuser;
 import edu.tcu.cs.hogwartsartifactsonline.hogwartsuser.converter.UserDtoToUserConverter;
 import edu.tcu.cs.hogwartsartifactsonline.hogwartsuser.converter.UserToUserDtoConverter;
 import edu.tcu.cs.hogwartsartifactsonline.hogwartsuser.dto.UserDto;
-import edu.tcu.cs.hogwartsartifactsonline.system.Result;
-import edu.tcu.cs.hogwartsartifactsonline.system.StatusCode;
+import edu.tcu.cs.hogwartsartifactsonline.System.Result;
+import edu.tcu.cs.hogwartsartifactsonline.System.StatusCode;
 import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.*;
 
